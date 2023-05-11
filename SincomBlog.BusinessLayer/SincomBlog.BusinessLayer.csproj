@@ -1,7 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SincomBlog.DataAccessLayer\SincomBlog.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\SincomBlog.EntityLayer\SincomBlog.EntityLayer.csproj" />
+    <ProjectReference Include="..\SincomBlog.Shared\SincomBlog.Shared.csproj" />
+  </ItemGroup>
 
 </Project>
